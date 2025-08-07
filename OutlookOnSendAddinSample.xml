@@ -16,7 +16,7 @@
   <SupportUrl DefaultValue="https://www.noraneko.co.jp/" />
 
   <AppDomains>
-    <AppDomain>www.noraneko.co.jp</AppDomain>
+    <AppDomain>https://www.noraneko.co.jp</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -30,7 +30,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://www.noraneko.co.jp/outlookonsendaddinsample/FunctionFile.html" />
+        <SourceLocation DefaultValue="https://www.noraneko.co.jp/outlookonsendaddinsample/function.html" />
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -66,7 +66,7 @@
           <bt:Image id="icon80" DefaultValue="https://www.noraneko.co.jp/outlookonsendaddinsample/images/icon-80.png" />
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="functionFile" DefaultValue="https://www.noraneko.co.jp/outlookonsendaddinsample/FunctionFile.html" />
+          <bt:Url id="functionFile" DefaultValue="https://www.noraneko.co.jp/outlookonsendaddinsample/function.html" />
         </bt:Urls>
       </Resources>
     </VersionOverrides>
