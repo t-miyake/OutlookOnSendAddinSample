@@ -16,7 +16,7 @@ function messageOnSent(event) {
     });
     return;
   }
-  if (mailboxItem.itemType !== Office.MailboxEnums.ItemType.Message) {
+  if (mailItem.itemType !== Office.MailboxEnums.ItemType.Message) {
     thisEvent.completed({
       allowEvent: true,
     });
