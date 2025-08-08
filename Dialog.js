@@ -4,10 +4,10 @@ setTimeout(function () {
   Office.context.ui.messageParent("cancel");
 }, 180000);
 
-$("#sendButton").click(function () {
+document.getElementById("sendButton").addEventListener("click", function () {
   Office.context.ui.messageParent("send");
 });
 
-$("#cancelButton").click(function () {
+document.getElementById("cancelButton").addEventListener("click", function () {
   Office.context.ui.messageParent("cancel");
 });
