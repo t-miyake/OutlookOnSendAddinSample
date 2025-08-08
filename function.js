@@ -24,7 +24,7 @@ function messageOnSent(event) {
   }
 
   Office.context.ui.displayDialogAsync(dialogPath, { height: 50, width: 50, promptBeforeOpen: false, displayInIframe: true }, function (asyncResult) {
-    dialog = asyncResult.value;
+    const dialog = asyncResult.value;
     dialog.addEventHandler(Office.EventType.DialogMessageReceived, function (arg) {
       dialog.close();
       if (arg.message === "send") {
